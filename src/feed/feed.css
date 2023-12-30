@@ -1,17 +1,20 @@
-.navbar {
-    padding: 10px;
-    background-color: black;
+.feed {
     color: #fff;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 
-@media (max-width: 120px) {
-    .navbar {
-        width: max-content;
+#feed-hr {
+    margin: 0 15px;
+    border: 1px solid gray;
+}
+
+@media (max-width: 280px) {
+    .feed {
         max-width: 500px;
     }
-    .navbar__text {
+    .feed__text {
         min-width: max-content;
         margin-right: 10px;
     }
