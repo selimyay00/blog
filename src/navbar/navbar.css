@@ -1,0 +1,17 @@
+.navbar {
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 120px) {
+    .navbar {
+        width: max-content;
+    }
+    .navbar__text {
+        min-width: max-content;
+        margin-right: 10px;
+    }
+}
